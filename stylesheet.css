@@ -1,66 +1,129 @@
-.ignored {
-  background-color: inherit;
-  color: red;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6em;
+  padding: 20px;
 }
 
-.right-align {
-  text-align: right;
+h1 {
+  color: #333;
 }
 
-.raw {
-  font-family: monospace;
-  white-space: pre;
+form {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  width: 60%;
 }
 
-.threadgroup {
-  margin-top: 1.5em;
+label {
+  display: block;
+  margin-bottom: 5px;
 }
 
-.threadcount {
-  font-weight: bold;
+input[type="text"], select, textarea {
+  width: 60%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
 }
 
-.warn {
-  background-color: inherit;
-  color: red;
-  font-weight: bold;
+input[type="submit"] {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-a.internal:link {
-  background-color: inherit;
-  color: blue;
-
-  text-decoration: none;
+input[type="submit"]:hover {
+  background-color: #444;
 }
 
-a.internal:visited {
-  background-color: inherit;
-  color: blue;
-
-  text-decoration: none;
+/* Add this style for the file input button */
+input[type="file"] {
+  width:(60%-20px);
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
 }
 
-a.internal:hover {
-  background-color: inherit;
-  color: blue;
-
-  text-decoration: underline;
+input[type="file"]:hover {
+  border-color: #aaa;
 }
 
-td.synchronizer {
-  vertical-align: top;
+table {
+  width: 100%;
+  max-width: 100%; /* Ensures table does not exceed its container */
+  border-collapse: collapse;
+  table-layout: fixed; /* Forces the table to respect the width and not expand beyond it */
 }
 
-div.synchronizer {
-  margin-top: 0.25em;
+table, th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  word-wrap: break-word; /* Allows wrapping of long words within cells */
 }
 
-.vertical-align{
-  padding-top:  10px;
-  vertical-align: top;
+th {
+  background-color: #333;
+  color: #fff;
+  white-space: nowrap; /* Prevents wrapping of header text */
 }
 
-:target {
-  background-color: #ffa;
-  color: inherit;
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 50px;
+  width: 50px;
+  outline: black;
+  color: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
 }
+
+/* .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+} */
+
+
+/* .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 30px;
+  color: black;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 30px;
+  color: black;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+} */
+
+
+
+
+
+
+
