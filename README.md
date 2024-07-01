@@ -33,4 +33,4 @@ Tested with `npm` `6.13.7` and `node` `v13.8.0`.
 
 ## Quick Notes
 
-Since this repo is built on top of another repo which used only html and pure js, the components do not dynamically render, and thus it is advisable to refresh the page before multiple runs :)
+Since this repo is built on top of another repo which used only html and pure js, the components do not dynamically render, and thus it is advisable to refresh the page or hit the Clear All button before multiple runs :)
